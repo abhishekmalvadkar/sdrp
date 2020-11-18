@@ -1,0 +1,21 @@
+
+
+
+
+
+/* Banner section css start here */
+
+.banner-section{
+  background: #f9ca24;
+  height: 500px;
+}
+
+.banner-section-content{
+  position: absolute;
+  top: 150px;
+  color: #000;
+  width: 100%;
+  font-weight: bold;
+}
+
+/* Banner section css end here */

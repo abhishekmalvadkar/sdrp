@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="form-group" style="border-bottom: 2px solid red;">
+    <h3 class="text-uppercase">Our products</h3>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-3" *ngFor="let productType of productTypes">
+      <div class="form-group">
+        <label>{{ productType.productType  }}</label>
+      </div>
+      <div class="form-group">
+        <img [src]="productType.products[0].productImageURL" height="200px" alt="product-image">
+      </div>
+      <div class="form-group">
+        <label style="color: green;">No of category : {{ productType.products.length }}</label>
+      </div>
+      <div class="form-group">
+        <button class="sdrp-button text-uppercase"
+        [routerLink]="['/products/', productType.productTypeId]"
+        >See All Category</button>
+      </div>
+    </div>
+  </div>
+</div>
+

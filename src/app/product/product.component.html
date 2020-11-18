@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="form-group" style="border-bottom: 2px solid red;">
+    <h3 class="text-uppercase">{{ productCategory.productType }}</h3>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-3" *ngFor="let product of productCategory.products">
+      <div class="form-group">
+        <label>{{ product.productName  }}</label>
+      </div>
+      <div class="form-group">
+        <img [src]="product.productImageURL" height="200px" alt="product-image">
+      </div>
+      <div class="form-group">
+        <button class="sdrp-button text-uppercase"
+        >See Details</button>
+      </div>
+    </div>
+  </div>
+</div>
+

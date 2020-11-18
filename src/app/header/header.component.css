@@ -1,0 +1,20 @@
+/* Top heading section css start here */
+
+.heading-section {
+  background-color: #000;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  z-index: 10;
+}
+
+.heading-section span {
+  position: absolute;
+  top: 16px;
+  left: 27px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Top heading section css end here */

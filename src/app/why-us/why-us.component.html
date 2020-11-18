@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="form-group" style="border-bottom: 2px solid red;">
+    <h3 class="text-uppercase">Why us?</h3>
+  </div>
+  <div class="form-group text-justify" >
+    <label>
+      We have achieved a remarkable and strong position in the market due to our excellent quality range of products
+      that we provide in several specifications. Following are the some of the unique reasons due to which we have
+      achieved the belief of our valued patrons:
+    </label>
+  </div>
+  <div class="row">
+    <div class="col-md-6" *ngFor="let quality of qualityList">
+      <i class="fa fa-check-circle check-icon" aria-hidden="true"></i>
+      <label>{{ quality }}</label>
+    </div>
+  </div>
+</div>
