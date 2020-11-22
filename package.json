@@ -1,6 +1,7 @@
 {
   "name": "ng-sdrp",
   "version": "0.0.0",
+  "homepage": "https://abhishekmalvadkar.github.io/sdrp/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
