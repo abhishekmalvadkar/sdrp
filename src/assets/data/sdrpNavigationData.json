@@ -14,5 +14,9 @@
   {
     "title" : "Why us?",
     "url" : "/why-us"
+  },
+  {
+    "title" : "Contact us",
+    "url" : "/contact-us"
   }
 ]

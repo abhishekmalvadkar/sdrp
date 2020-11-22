@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  show = false;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  openSideBar() {
+    this.show = true;
+  }
+
+  closeSideBar() {
+    this.show = false;
   }
 
 }

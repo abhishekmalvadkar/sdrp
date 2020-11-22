@@ -11,7 +11,13 @@ export class ProductCategoryComponent implements OnInit {
 
   productTypes = [];
   @BlockUI() blockUI: NgBlockUI;
-  constructor(private productService: ProductService) { }
+  constructor(private productService: ProductService) {
+    this.blockUI.start(); // Start blocking
+    setTimeout(() => {
+      this.blockUI.stop(); // Stop blocking
+    }, 1000);
+
+   }
 
   ngOnInit(): void {
     this.getAllProducts();

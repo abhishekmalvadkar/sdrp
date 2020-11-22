@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgBlockUI, BlockUI } from 'ng-block-ui';
 
 @Component({
   selector: 'app-about-us',
@@ -7,7 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutUsComponent implements OnInit {
 
-  constructor() { }
+  @BlockUI() blockUI: NgBlockUI;
+  constructor() {
+    this.blockUI.start(); // Start blocking
+    setTimeout(() => {
+      this.blockUI.stop(); // Stop blocking
+    }, 1000);
+
+   }
 
   ngOnInit(): void {
   }

@@ -1,7 +1,24 @@
 <!-- Top heading section strat here -->
 <div class="heading-section">
-  <span class="text-uppercase">Shree Durga Rubber Products</span>
+  <div style="padding: 15px 12px;">
+    <i class="fa fa-times bar-icon" style="cursor: pointer;" (click)="closeSideBar()" *ngIf="show" aria-hidden="true"></i>
+    <i class="fa fa-bars icon-shap bar-icon" (click)="openSideBar()" *ngIf="!show" style="cursor: pointer;" aria-hidden="true"></i>
+  <label class="text-uppercase"  style="color: #fff; margin-left: 10px;">Shree Durga Rubber Products</label>
+  </div>
 </div>
 <!-- Top heading section end here -->
 
+
+<div class="sidebar" *ngIf="show">
+  <div class="top-links">
+    <ul>
+      <li><a routerLink="/" (click)="show = false" class="text-uppercase">Home</a></li>
+      <li><a routerLink="/product-category" (click)="show = false" class="text-uppercase">Our Products</a></li>
+      <li><a routerLink="/about-us" (click)="show = false" class="text-uppercase">About us</a></li>
+      <li><a routerLink="/factsheet" (click)="show = false" class="text-uppercase">Factsheet</a></li>
+      <li><a routerLink="/why-us" (click)="show = false" class="text-uppercase">Why us?</a></li>
+      <li><a routerLink="/contact-us" (click)="show = false" class="text-uppercase">Contact us</a></li>
+    </ul>
+  </div>
+</div>
 
