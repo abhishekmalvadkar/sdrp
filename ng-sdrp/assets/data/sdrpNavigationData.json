@@ -1,0 +1,22 @@
+[
+  {
+    "title" : "Our products",
+    "url" : "/product-category"
+  },
+  {
+    "title" : "About us",
+    "url" : "/about-us"
+  },
+  {
+    "title" : "Factsheet",
+    "url" : "/factsheet"
+  },
+  {
+    "title" : "Why us?",
+    "url" : "/why-us"
+  },
+  {
+    "title" : "Contact us",
+    "url" : "/contact-us"
+  }
+]
