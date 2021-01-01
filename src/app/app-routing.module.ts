@@ -8,6 +8,7 @@ import { WhyUsComponent } from './why-us/why-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ProductComponent } from './product/product.component';
+import { ClientComponent } from './client/client.component';
 
 
 const routes: Routes = [
@@ -18,7 +19,8 @@ const routes: Routes = [
   {path: 'why-us' , component: WhyUsComponent},
   {path: 'navigation' , component: NavigationComponent},
   {path: 'products/:id' , component: ProductComponent},
-  {path: 'contact-us' , component: ContactUsComponent}
+  {path: 'contact-us' , component: ContactUsComponent},
+  {path: 'clients' , component: ClientComponent}
 ];
 
 @NgModule({

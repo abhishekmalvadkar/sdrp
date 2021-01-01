@@ -123,6 +123,11 @@
         "productId":17,
         "productName": "Butterfly Valve Seal",
         "productImageURL": "assets/images/butterfly-valve-seal-500x500.jpg"
+      },
+      {
+        "productId":17.1,
+        "productName": "Industrial Butterfly Valve Seal",
+        "productImageURL": "assets/images/industrial-butterfly-valve-seal-500x500.png"
       }
     ]
   },
@@ -188,6 +193,62 @@
   },
   {
     "productTypeId": 12,
+    "productType": "Rubber Compounds",
+    "productTypeLevelDescription": "Our range of products include Silicone Sponge Profile.",
+    "products" : [
+      {
+        "productId":22.1,
+        "productName": "Rubber Compounds",
+        "productImageURL": "assets/images/rubber-compounds.jpg"
+      }
+    ]
+  },
+  {
+    "productTypeId": 13,
+    "productType": "O Rings",
+    "productTypeLevelDescription": "Our range of products include Silicone Sponge Profile.",
+    "products" : [
+      {
+        "productId":22.1,
+        "productName": "Nitrile (NBR) O-Rings",
+        "productImageURL": "assets/images/nbr.jpg"
+      },
+      {
+        "productId":22.2,
+        "productName": "Viton® (FKM) O-Rings",
+        "productImageURL": "assets/images/fkm.jpg"
+      },
+      {
+        "productId":22.3,
+        "productName": "EPDM O-Rings",
+        "productImageURL": "assets/images/epdm.jpg"
+      },
+      {
+        "productId":22.4,
+        "productName": "Silicone O-Rings",
+        "productImageURL": "assets/images/silicon-o-ring.jpg"
+      },
+      {
+        "productId":22.5,
+        "productName": "Neoprene® O-Rings",
+        "productImageURL": "assets/images/neoprene-o-ring.jpg"
+      }
+    ]
+  },
+  {
+    "productTypeId": 14,
+    "productType": "Moulded Components",
+    "productTypeLevelDescription": "Our range of products include Silicone Sponge Profile.",
+    "products" : [
+      {
+        "productId":22.6,
+        "productName": "Moulded Components",
+        "productImageURL": "assets/images/moulded.jpg"
+      }
+    ]
+  },
+  {
+    "productTypeId": 15,
     "productType": "New Items",
     "productTypeLevelDescription": "Our product range includes a wide range of Rubber Gasket, Rubber Diaphragm, Silicon O Ring, Rubber O Ring, Industrial O Ring and Rubber Ring.",
     "products" : [
@@ -243,4 +304,5 @@
       }
     ]
   }
+
 ]

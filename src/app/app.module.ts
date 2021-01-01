@@ -16,6 +16,7 @@ import { WhyUsComponent } from './why-us/why-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ProductComponent } from './product/product.component';
+import { ClientComponent } from './client/client.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ProductComponent } from './product/product.component';
     ContactUsComponent,
     NavigationComponent,
     ProductComponent,
+    ClientComponent,
   ],
   imports: [
     BrowserModule,

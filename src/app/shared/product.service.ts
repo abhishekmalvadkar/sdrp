@@ -28,4 +28,8 @@ export class ProductService {
     return this.http.get('assets/data/sdrpNavigationData.json');
   }
 
+  getClientsData() {
+    return this.http.get('assets/data/clientsData.json');
+  }
+
 }
