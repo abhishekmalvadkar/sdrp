@@ -18,5 +18,9 @@
   {
     "title" : "Contact us",
     "url" : "/contact-us"
+  },
+  {
+    "title" : "Our clients",
+    "url" : "/clients"
   }
 ]
